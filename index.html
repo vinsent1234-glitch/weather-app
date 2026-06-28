@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="search">
+        <input
+            type="text"
+            id="city"
+            placeholder="Enter city name"
+            spellcheck="false">
+
+        <button id="btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+    </div>
+
+    <div class="weather">
+
+        <img
+            class="weather-icon"
+            src="https://uxwing.com/wp-content/themes/uxwing/download/weather/weather-icon.png"
+            alt="weather">
+
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">Dhaka</h2>
+
+        <div class="details">
+
+            <div class="col">
+                <img src="https://cdn-icons-png.flaticon.com/512/4148/4148460.png">
+
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="https://cdn-icons-png.flaticon.com/512/959/959711.png">
+
+                <div>
+                    <p class="wind">5 km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
